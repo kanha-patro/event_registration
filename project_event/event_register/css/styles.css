@@ -1,0 +1,92 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color:darkcyan;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+  
+  .navbar ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .navbar ul li a:hover {
+    color: #4CAF50;
+  }
+  
+  /* Header Section */
+  .header {
+    background-image: url('background.jpg'); /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .header-content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .header-content h2 {
+    font-size: 30px;
+  }
+  
+  /* Main Content */
+  .main-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .main-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .main-content p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
